@@ -1,0 +1,174 @@
+body{
+	font-family: 'Montserrat-black', sans-serif;
+	text-align: center;
+	}
+
+p{
+ color: #8f8f8f;
+}
+
+h2{
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 700;
+}
+ /*title section*/
+#title{
+	background-color: #ff4c68;
+	text-align: left;
+		}
+
+.container-fluid{
+ padding: 3% 15% 7%;
+
+}		
+/* navigation section*/
+.navbar{
+	padding: 0;
+}
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link
+{
+	font-size: 1.2rem;
+
+}
+
+.intro-sec {
+	padding-top: 6%;
+}
+
+.intro{
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 1.5;
+	color: white;
+
+}
+
+.image-dog{
+	margin-top: 80px;
+}
+.Download{
+margin: 5% 3% 5% 0;
+}
+#dog{
+	transform: rotate(24deg);
+	width: 55%;
+	right: 30%;
+	position: absolute;
+}
+ /*feature section*/
+#features{
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}
+
+.icon{
+	padding-bottom: 10px;
+	font-size: 60px;
+	color: #ef8172;
+}
+
+.icon:hover{
+	color: #ff4c68;
+}
+
+.icon-adjust{
+  padding:5% 0px;
+	}
+/*testomonial section*/
+#testimonials{
+	background-color:  #ef8172;
+	color: white;
+
+}
+
+.testimonial-image{
+	width: 10%;
+	margin: 20px;
+	border-radius: 100%;
+}
+.carousel-item{
+	padding: 7% 17%;
+}
+/*press section*/
+#press{
+	background-color:  #ef8172;
+	padding-bottom: 3%;
+}
+
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 15px;
+}
+
+/*price section */
+#price{
+	padding: 100px;
+}
+
+.price-col{
+	padding: 3% 2%;
+}
+.sign{
+	background-color:#ff4c68; 
+}
+
+.sign:hover{
+	box-shadow: 1px 1px 5px 5px #ff4c68;
+}
+
+ /*footer section*/
+#cta{
+	background-color: #ff4c68;
+	padding: 7% 20% 7% 20%;
+}
+.foot{
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 700;
+	color: white;
+	
+}
+#footer{
+	padding: 50px;
+}
+.foot-para{
+	padding: 20px;
+}
+ #foot-icon1,#foot-icon2,#foot-icon3,#foot-icon4{
+	margin: 20px 10px 5px;
+	font-size: 1.5rem;
+}
+
+#foot-icon1:hover {
+	color: skyblue !important;
+}
+
+#foot-icon3:hover{
+	color: pink !important;
+}
+#foot-icon4:hover {
+	color: #ef8172 !important;
+}
+
+ /*media section*/
+@media(max-width: 1028px) {
+	#dog{
+		position: static;
+		transform: rotate(0);
+	}
+	#title {
+		text-align: center;
+	}
+}
+
